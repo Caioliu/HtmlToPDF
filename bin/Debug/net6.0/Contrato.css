@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+section.capa {
+    width: 1400px;
+    height: 2000.6px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    page-break-after: always;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+/* #clausula {
+    border-bottom: 20px solid;
+} */
+
+.contrato-numero {
+    text-align: right;
+    color: red;
+    font-weight: bold;
+}
+
+section {
+    width: 1400px;
+    padding: 94.5px 56.7px 56.7px;
+    border: 1px solid #000;
+    page-break-after: always;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 span {
+    color: red
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.subitens {
+    text-align: justify;
+    
+}
+
+#A .subitens li {
+    padding: 3.78px 3.78px;
+}
+
+#clausula {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Estilos para o texto dentro das cláusulas */
+#clausula h4 {
+    margin-bottom: 10px;
+}
+
+#clausula p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#clausula p span {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#A #clausula>h4,
+#A #clausula>div,
+#A #clausula>ol {
+    border-top: 3px solid #000;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    border-collapse: collapse;
+}
+
+#A h4 {
+    background-color: #D8D8D8;
+    text-transform: uppercase;
+}
+
+#A h4,
+#A p {
+    padding: 1.89px 3.78px;
+}
+
+.tabela>div>div,
+.tabela>div>div>p {
+    padding: 1.134px 2.268px;
+}
+
+.tabela>div>div+div {
+    display: grid;
+    border-top: 1px solid #000;
+}
+
+.tabela>div>div>p+p {
+    border-left: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    border-block: 1px solid #000;
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* table thead tr,
+table tbody td {
+    border-block: 1px solid #000;
+    text-align: center;
+    font-weight: bold;
+} */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+table th+th,
+table td+td {
+    border-left: 1px solid #000;
+}
+
+.assinatura {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.assinatura p {
+    border-top: 2px solid #000;
+    width: 226.8px;
+    margin: 37.8px;
+}
+
+.assinatura2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.data {
+    color: red;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 151.2px;
+}
+
+.data span {
+    border-bottom: 2px solid;
+}
+
+#B .subitens span {
+    font-weight: bold;
+}
+
+#B .subitens li+li {
+    margin-top: 3.78px;
+}
